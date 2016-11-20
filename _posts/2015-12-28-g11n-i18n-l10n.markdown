@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "G11N, I18N, L10N... W1F?"
+date:   2015-12-28 00:00:00 -0800
+---
+When you create a website or an application (desktop/web/mobile), you want everyone to use it. Globalization(G11N) is a step you take when you get serious about this goal. It is a technique to help a whole lot of people to come to your website. So what's up with all these strange acronyms? Well, they are not acronyms,
+
+> They are numeronyms!
+
+It s a number based acronym for writing long words such as Globalization. Take the first letter and the last letter of a long word, count the number of letters in between and put it all together. In other words, Globalization is a word made up of 11 letters in between ‘G’ and ‘N’, hence G11N. Numeronyms are used by people who are experts in these fields as it saves them a whole lot of time in actually typing out, or gulp... writing those words in their entirety.
+
+> Globalization (G11N) is made up of Localization (L10N) and Internationalization (I18N).
+
+#### Localization
+
+L10N is the process of adapting the content on your website to various geographies and to translate it accordingly. When I say ‘adapting’ I mean the process where you first adapt the content in English itself. For example, let’s say the originating country for the application is the United States and the initial language set is US English, then in case of India, the content will first be adapted as per British English as that is the colloquial used in India. Only after ‘adapting’ the English itself, comes the process of actually translating the content in Hindi (which is the national language of India).
+
+#### Internationalization
+
+I18N is the process of preparing your software to be able to take these language related changes along with dynamic data. Here dynamic data does not imply data simply coming in from the database, it means data such as currencies, dates, addresses, phone numbers and other such things which are depicted differently from country to country. For example, a date in the US is written with the month followed by the day when written numerical. For example, 12/20/1974 for December 20, 1974. The same is depicted as 20/12/1974 in India, where the date precedes the month. The $ sign is used for depicting currency in the US but ₹ is used in India as the currency symbol. These differences are known as dynamic data when it comes to L10N. Making provision to accept these differences in your software is I18N.
