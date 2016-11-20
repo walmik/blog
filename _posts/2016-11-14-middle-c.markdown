@@ -5,8 +5,20 @@ date:   2016-11-14 00:00:00 -0800
 ---
 MIDI specifications define middle C as the number 60. It does not state if this is on the third or the fourth octave. It just says, if you want a middle C, it will numerically be 60 from MIDI's point of view. Device manufacturers (and software creators) are free to set whichever octave they want to the number 60. Here's how various devices and softwares treat the number 60, in effect the middle C:
 
-Most software (Live, Reason, Cubase, Logic,  Garage Band) dictate C3 as the middle C as they correspond to C3 for MIDI note number 60
+| Software/Hardware       | Middle C |
+|-------------------------|----------|
+| Ableton Live            | C3       |
+| Propellerhead Reason    | C3       |
+| Steinberg Cubase        | C3       |
+| Logic Audio             | C3       |
+| Garage Band             | C3       |
+| Yamaha MIDI Keyboards   | C3       |
+| Roland MIDI Keyboards   | C4       |
+| Kurzweil MIDI Keyboards | C4       |
+| JS Midgen               | C4       |
+| Scribbletune            | C4       |
 
-On Yamaha MIDI keyboards as well, middle C is C3 but Roland and Kurzweil MIDI keyboards call C4 as middle C. JS MIdgen, the node module that Scribbletune (my library for creating music with JavaScript) depends on uses C4 which in effect means Scribbletune also uses C4 as middle C (but I m gonna change this soon so that it will let programmers chose middle C for themselves - coz you never know what people may want do with the music that is made with Scribbletune)
+
+Scribbletune also uses C4 as middle C (but I m gonna change this soon so that it will let programmers chose middle C for themselves - coz you never know what people may want do with the music that is made with Scribbletune)
 
 If you don't plan to record MIDI and are just interested in playing the keyboard/piano you have, then the middle C is the C of the middle octave of your keyboard.
