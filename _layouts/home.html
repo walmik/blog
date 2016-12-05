@@ -1,16 +1,29 @@
 {% include header.html %}
+<div id="wrap" class="clearfix">
+	<div id="sidebar-primary">
+		<div class="logo">
+			<a href="http://walmik.info" title="Walmik">
+				<h1 id="logo">Walmik Deshpande</h1>
+				<p class="spring-red">Funny little guy with a computer.</p>
+			</a>
+		</div>
+		<img style="margin-top: 100px;" src="{{ site.config.url }}/assets/walmik.png">
+	</div>
 
-<div id="sidebar-primary">
-	
+	<div id="main">
+
+		<div id="content">
+			{% for post in site.posts %}
+				<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+				<div class="post-date">{{ post.date | date: '%d. %B %Y' }}</div>
+				<div>{{ post.content }}</div>
+			{% endfor %}	
+		</div>	
+
+		<div id="sidebar-secondary">
+			<h3>About</h3>
+			<p>Sprint monkey at <a href="https://www.paypal.com/">PayPal</a>. Sings in the bath<i>vroom</i>, plays guitars in the bed<i>vroom</i>, yawns in the board<i>vroom</i>. Just <i>vroom vroom vroom</i>!</p>
+		</div>
+	</div>
 </div>
-
-<div id="main">
-
-	<div id="content">
-	
-	</div>	
-</div>
-
-
-{{ site.posts }}
 {% include footer.html %}
