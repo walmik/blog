@@ -357,6 +357,7 @@ ul.sidebar li.widget_recent_comments ul#recentcomments li.recentcomments {
 ul.sidebar li.widget_recent_comments ul#recentcomments li.recentcomments a {
 	padding: 0px 0px 12px 0px;
 }
+
 /* --- Calendar Widget --- */
 table#wp-calendar caption {
 	font-family: Times, serif;
@@ -457,22 +458,18 @@ pre {
 	float: none;
 	margin: 10px 0px;
 }
-#content>table {
+#content table {
 	margin:10px 0px 30px 0px;
 }
-#content>table tr {
-	border-bottom:1px solid #4C4C4C;
+#content table tr {
+	border-bottom:1px solid #ccc;
 }
-#content>table tr th {
+#content table tr th {
 	padding: 10px 20px 10px 20px;
-	border-top:1px solid #4C4C4C;
-	border-left:1px solid #4C4C4C;
-	border-right:1px solid #4C4C4C;
+	text-align: left;
 }
-#content>table tr td {
+#content table tr td {
 	padding: 10px 20px 10px 20px;
-	border-left:1px solid #4C4C4C;
-	border-right:1px solid #4C4C4C;
 }
 #content img {
 	max-width: 100%;

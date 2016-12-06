@@ -14,11 +14,13 @@
 
 		<div id="content">
 			{% for post in site.posts %}
-				<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-				<div class="post-date">{{ post.date | date: '%d. %B %Y' }}</div>
-				<div>{{ post.content }}</div>
-			{% endfor %}	
-		</div>	
+				<div class="post">
+					<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+					<div class="post-date">{{ post.date | date: '%d. %B %Y' }}</div>
+					<div>{{ post.content }}</div>
+				</div>
+			{% endfor %}
+		</div>
 
 		<div id="sidebar-secondary">
 			<h3>About</h3>
