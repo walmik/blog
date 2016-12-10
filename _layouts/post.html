@@ -7,16 +7,18 @@
 				<p class="spring-red">Funny little guy with a computer.</p>
 			</a>
 		</div>
-		<img style="margin-top: 100px;" src="{{ site.config.url }}/assets/walmik.png">
+		<img class="motif" style="margin-top: 100px;" src="{{ site.config.url }}/assets/walmik.png" />
 	</div>
 
 	<div id="main">
-
 		<div id="content">
 			<div class="post">
-				<h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
+				<h2>{{ page.title }}</h2>
 				<div class="post-date">{{ page.date | date: '%d. %B %Y' }}</div>
 				<div>{{ page.content }}</div>
+			</div>
+			<div class="actions">
+				<a href="/">Back to article index</a>
 			</div>
 		</div>
 

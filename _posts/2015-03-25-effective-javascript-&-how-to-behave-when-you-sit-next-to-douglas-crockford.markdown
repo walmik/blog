@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Effective JavaScript & How to behave when you sit next to Douglas Crockford"
+title:  Effective JavaScript & How to behave when you sit next to Douglas Crockford
 date:   2014-04-26 00:00:00 -0800
+excerpt: Before I go into the most unique experience I had with Douglas Crockford, I want to put down the real essence of this post, which is the notes I took in the Effective JavaScript session that I attended. The most important thing I learnt in the training is the first line in my notes (the rest is secondary and you can actually skip it and move on to other things if you like).
 ---
 Before I go into the most unique experience I had with Douglas Crockford, I want to put down the real essence of this post, which is the notes I took in the Effective JavaScript session that I attended. The most important thing I learnt in the training is the first line in my notes (the rest is secondary and you can actually skip it and move on to other things if you like).
 

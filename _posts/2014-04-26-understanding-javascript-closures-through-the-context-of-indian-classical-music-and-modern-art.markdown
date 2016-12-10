@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Understanding JavaScript closures through the context of Indian classical music and modern art"
+title:  Understanding JavaScript closures through the context of Indian classical music and modern art
 date:   2014-04-26 00:00:00 -0800
+excerpt: As of EcmaScript 5, closures, along with functions, are at the heart of creating modules in JavaScript. While understanding closures can take some time initially, the effort invested yields great results on the dawn of understanding of what closures are.
 ---
 > One good thing about music, when it hits you, you feel no pain. - Bob Marley
 

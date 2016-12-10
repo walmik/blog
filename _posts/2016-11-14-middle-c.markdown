@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Middle C"
+title:  Middle C
 date:   2016-11-14 00:00:00 -0800
+excerpt: MIDI specifications define middle C as the number 60. It does not state if this is on the third or the fourth octave. It just says, if you want a middle C, it will numerically be 60 from MIDI's point of view.
 ---
 MIDI specifications define middle C as the number 60. It does not state if this is on the third or the fourth octave. It just says, if you want a middle C, it will numerically be 60 from MIDI's point of view. Device manufacturers (and software creators) are free to set whichever octave they want to the number 60. Here's how various devices and softwares treat the number 60, in effect the middle C:
 

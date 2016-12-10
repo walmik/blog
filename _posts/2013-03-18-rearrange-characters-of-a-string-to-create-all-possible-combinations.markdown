@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Rearrange characters of a string to create all possible combinations"
+title:  Rearrange characters of a string to create all possible combinations
 date:   2013-03-18 00:00:00 -0800
+excerpt: How to take a word(string) and rearrange its letters to create all possible combinations? Lets say we want to use the word ‘goal’ and list out all possible words that can be made by rearranging the letters of the word ‘goal’.
 ---
 > Governments tend not to solve problems, only rearrange them. - Ronald Reagan
 

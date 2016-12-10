@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "G11N, I18N, L10N... W1F?"
+title:  G11N, I18N, L10N... W1F?
 date:   2015-12-28 00:00:00 -0800
+excerpt: When you create a website or an application (desktop/web/mobile), you want everyone to use it. Globalization(G11N) is a step you take when you get serious about this goal.
 ---
 When you create a website or an application (desktop/web/mobile), you want everyone to use it. Globalization(G11N) is a step you take when you get serious about this goal. It is a technique to help a whole lot of people to come to your website. So what's up with all these strange acronyms? Well, they are not acronyms,
 

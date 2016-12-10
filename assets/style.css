@@ -130,7 +130,7 @@ img.aligncenter {
 	font-size: 22px;
 	line-height:22px;
 }
-#content h2 {
+h2 {
 	font-size: 30px;
 	color: #e84d38;
 
@@ -1078,4 +1078,13 @@ a#cancel-comment-reply-link {
 	visibility:hidden;
 	width:0;
 	height:0
+}
+
+.motif {
+
+}
+
+.actions {
+	padding: 5px;
+	text-align: right;
 }

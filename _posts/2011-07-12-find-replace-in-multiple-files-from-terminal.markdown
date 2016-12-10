@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Find and replace in multiple files from the terminal"
+title:  Find and replace in multiple files from the terminal
 date:   2011-07-12 15:06:32 -0800
+excerpt: There are times when you d like to search for a word/phrase or regular expression in a number of files together and optionally replace it with something else.
 ---
 > You have to kiss a few frogs before you find a prince  - Anonymous
 

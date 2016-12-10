@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "jQuery Timer Plugin"
+title:  jQuery Timer Plugin
 date:   2012-02-20 00:00:00 -0800
+excerpt: This plugin will allow you to add a simple timer to a HTML element like a DIV or INPUT or any other valid display element.
 ---
 > If you love life, don't waste time, for time is what life is made up of. - Bruce Lee
 
