@@ -20,6 +20,8 @@ MIDI specifications define middle C as the number 60. It does not state if this 
 | Scribbletune            | C4       |
 
 
-Scribbletune also uses C4 as middle C (but I m gonna change this soon so that it will let programmers chose middle C for themselves - coz you never know what people may want do with the music that is made with Scribbletune)
+[Scribbletune](https://www.scribbletune.com) also uses C4 as middle C (because it's primary dependency - JS Midgen - does that)
+
+Technically, if we consider [0 as the first octave and 10 as the last one](http://www.electronics.dit.ie/staff/tscarff/Music_technology/midi/midi_note_numbers_for_octaves.htm), then C5 should be middle C. Softwares such as Ableton Live & Properllerhead Reason, transpose this setting to -2 (lowest note C -2) to 8 (highest not G# 8) hence on these, middle C is C3.
 
 If you don't plan to record MIDI and are just interested in playing the keyboard/piano you have, then the middle C is the C of the middle octave of your keyboard.
